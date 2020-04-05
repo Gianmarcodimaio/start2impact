@@ -1,0 +1,80 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+	padding: 15px;
+  font-size: 30px;
+  margin: auto;
+}
+.sub-header {
+  color: #D6E9FE;
+  background-color: #5995DA;
+  display: flex;
+  justify-content: center;
+	padding: 15px;
+  font-size: 50px;
+}
+.presentation {
+display: flex;
+width: 90%;
+justify-content: left;
+  }
+.profile-pic {
+  height: 90vh;
+  filter: drop-shadow(3px 3px 5px);
+}
+.intro-text h1, .next-text h1 {
+background: linear-gradient(to right, #6495ed, #00008b);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 35px;
+}
+.intro-text, .next-text {
+padding: 20px;
+}
+.intro-text p {
+font-size: 15px;
+color: #585772;
+}
+.next {
+text-align:center;
+  }
+  .next-text p {
+  font-size: 18px;
+  color: #585772;
+  margin-top: 5px;
+  }
+  .cta{
+    border: 2px solid #6495ed;
+    background: #D6E9FE;
+    color: #6495ed;
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .big-circle {
+    position: absolute;
+    top: 125%;
+    right: 35%;
+    z-index: -1;
+    height: 60%;
+    }
+
+ div#social-media{
+	position: static;
+  padding-top: 20px;
+}
+ div#social-media img.icon{
+	width: 50px;
+	height: auto;
+}
